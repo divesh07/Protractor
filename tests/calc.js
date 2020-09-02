@@ -32,10 +32,10 @@ describe('demo calc tests', function(){
 
         // select element by ng-model 
         //element(by.model('first')).sendKeys('2');
-        homepage.enterFirstNumber('4');
+        homepage.enterFirstNumber('6');
 
         //element(by.model('second')).sendKeys('3');
-        homepage.enterSecondNumber('6');
+        homepage.enterSecondNumber('4');
 
         //element(by.css('[ng-click="doAddition()"]')).click();
         homepage.clickGo();
